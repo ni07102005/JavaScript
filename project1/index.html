@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <style>
+        body{
+            background-color: darkgrey;
+           
+        }
+        .container{
+            display:flex;
+            padding:20px;
+            /* justify-content: center; */
+            flex-direction: column;
+            height:100vh;
+            /* align-items: center; */
+            border:2px solid black;
+           
+            width:350px;
+        }
+        input{
+            padding:20px;
+           font-size:20px;
+           margin-bottom:0px;
+           width:auto;
+           border:none;
+           background-color:lavenderblush;
+           color:darkgray;
+        }
+     .btn-group{
+        margin-top: 0;
+        flex-direction: row;
+       
+     }
+     button{
+        padding:10px 20px;
+        font-size:20px;
+        border-radius: 10px;
+        border:none;
+         cursor: pointer;
+           margin-right: 15px;
+          
+     }
+    </style>
+
+</head>
+<body>
+     <div class = "container">
+        <input type="text" placeholder="Enter the task">
+        <br><br>
+       <div class="btn-group">
+            <button id="add">ADD</button>
+            <button id="Deletion">Delete</button>
+        </div>
+        
+     </div>
+    
+</body>
+</html>
